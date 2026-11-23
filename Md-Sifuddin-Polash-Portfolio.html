@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Md. Sifuddin Polash – Network &amp; IT Infrastructure Specialist</title>
+<meta name="description" content="Portfolio of Md. Sifuddin Polash, MikroTik-certified network and IT infrastructure specialist in Bogura, Bangladesh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config = { theme: { extend: { fontFamily: {
+  display: ['"Familjen Grotesk"', 'system-ui', 'sans-serif'],
+  body: ['"IBM Plex Sans"', 'system-ui', 'sans-serif'] } } } };
+</script>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#f2f5f7;--surface:#ffffff;--ink:#0e1f2e;--muted:#4d6070;--line:#d3dde4;--accent:#0a7c86;--accent-ink:#ffffff;--warm:#c9731a;--link:#8fb8c0}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1721;--surface:#12242f;--ink:#e8f0f4;--muted:#9bb0bd;--line:#26404f;--accent:#3cc3cd;--accent-ink:#06222a;--warm:#f0a84e;--link:#2c5560}}
+:root[data-theme="dark"]{--bg:#0b1721;--surface:#12242f;--ink:#e8f0f4;--muted:#9bb0bd;--line:#26404f;--accent:#3cc3cd;--accent-ink:#06222a;--warm:#f0a84e;--link:#2c5560}
+html{scroll-padding-top:5rem;scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:'IBM Plex Sans',system-ui,sans-serif;line-height:1.65}
+h1,h2,h3{font-family:'Familjen Grotesk',system-ui,sans-serif;letter-spacing:-.01em}
+.muted{color:var(--muted)}.card{background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.btn{display:inline-block;padding:.7rem 1.2rem;border-radius:6px;font-weight:500;transition:opacity .15s}
+.btn-primary{background:var(--accent);color:var(--accent-ink)}.btn-ghost{border:1px solid var(--line)}
+.btn:hover{opacity:.85}
+a:focus-visible,button:focus-visible{outline:3px solid var(--warm);outline-offset:3px}
+.link{stroke:var(--link);stroke-width:1.5;fill:none}
+.node rect{fill:var(--surface);stroke:var(--line);stroke-width:1.5}
+.node text{fill:var(--ink);font-size:12px;font-family:'IBM Plex Sans',sans-serif}
+.core rect{fill:var(--accent);stroke:none}.core text{fill:var(--accent-ink);font-weight:500}
+.pulse{fill:var(--warm)}
+.hdr{background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.tl{border-left:2px solid var(--line)}.tl>div{position:relative}
+.tl>div::before{content:"";position:absolute;left:-1.62rem;top:.55rem;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pulse{display:none}}
+</style>
+</head>
+<body class="antialiased">
+
+<header class="hdr sticky top-0 z-20" style="padding-top:env(safe-area-inset-top,0px)">
+  <nav class="mx-auto max-w-5xl px-5 py-3 flex items-center justify-between gap-4" aria-label="Main">
+    <a href="#top" class="font-display font-bold text-lg">S. Polash</a>
+    <ul class="hidden sm:flex gap-6 text-sm muted">
+      <li><a class="hover:underline" href="#about">About</a></li>
+      <li><a class="hover:underline" href="#skills">Skills</a></li>
+      <li><a class="hover:underline" href="#experience">Experience</a></li>
+      <li><a class="hover:underline" href="#credentials">Credentials</a></li>
+      <li><a class="hover:underline" href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-primary text-sm !py-2">Get in touch</a>
+  </nav>
+</header>
+
+<main id="top">
+<!-- Hero -->
+<section class="mx-auto max-w-5xl px-5 pt-14 pb-16 grid md:grid-cols-2 gap-10 items-center">
+  <div>
+    <p class="muted mb-3">Bogura, Bangladesh</p>
+    <h1 class="text-4xl sm:text-5xl font-bold leading-[1.08]">Md. Sifuddin Polash</h1>
+    <p class="font-display text-xl sm:text-2xl mt-3" style="color:var(--accent)">Network &amp; IT Infrastructure Specialist</p>
+    <p class="mt-5 max-w-md muted">I build and run the networks, servers and hospital systems that organizations depend on every day, from the OLT at the edge to the doctor’s workstation.</p>
+    <div class="mt-7 flex flex-wrap gap-3">
+      <a href="#experience" class="btn btn-primary">See my experience</a>
+      <a href="mailto:sifuddin03@gmail.com" class="btn btn-ghost">Email me</a>
+    </div>
+  </div>
+
+  <!-- Topology: the memorable element -->
+  <figure class="card p-4 m-0">
+    <svg viewBox="0 0 400 300" role="img" aria-labelledby="topo-t topo-d" class="w-full h-auto">
+      <title id="topo-t">Network topology</title>
+      <desc id="topo-d">A MikroTik core router connected to an OLT, IP PABX, servers, CCTV and a Cisco switch.</desc>
+      <g class="link">
+        <path id="p1" d="M200 150 L70 55"/><path id="p2" d="M200 150 L330 55"/>
+        <path id="p3" d="M200 150 L70 245"/><path id="p4" d="M200 150 L330 245"/>
+        <path id="p5" d="M200 150 L200 262"/>
+      </g>
+      <g class="node core"><rect x="145" y="128" width="110" height="44" rx="8"/><text x="200" y="154" text-anchor="middle">MikroTik core</text></g>
+      <g class="node"><rect x="20" y="36" width="100" height="38" rx="8"/><text x="70" y="59" text-anchor="middle">OLT / fibre</text></g>
+      <g class="node"><rect x="280" y="36" width="100" height="38" rx="8"/><text x="330" y="59" text-anchor="middle">IP PABX</text></g>
+      <g class="node"><rect x="20" y="226" width="100" height="38" rx="8"/><text x="70" y="249" text-anchor="middle">Win / Linux</text></g>
+      <g class="node"><rect x="280" y="226" width="100" height="38" rx="8"/><text x="330" y="249" text-anchor="middle">CCTV</text></g>
+      <g class="node"><rect x="150" y="262" width="100" height="34" rx="8"/><text x="200" y="283" text-anchor="middle">Cisco switch</text></g>
+      <circle class="pulse" r="5"><animateMotion dur="3s" repeatCount="indefinite" path="M200 150 L70 55"/></circle>
+      <circle class="pulse" r="5"><animateMotion dur="3s" begin="1s" repeatCount="indefinite" path="M200 150 L330 245"/></circle>
+      <circle class="pulse" r="5"><animateMotion dur="3s" begin="2s" repeatCount="indefinite" path="M200 150 L330 55"/></circle>
+    </svg>
+    <figcaption class="muted text-sm mt-2 px-1">The kind of network I design and maintain.</figcaption>
+  </figure>
+</section>
+
+<!-- About -->
+<section id="about" class="border-t" style="border-color:var(--line)">
+  <div class="mx-auto max-w-5xl px-5 py-14 grid md:grid-cols-3 gap-8">
+    <h2 class="text-2xl font-semibold">About</h2>
+    <div class="md:col-span-2 max-w-prose">
+      <p>I’m an IT and network professional with over 9 years of hands-on experience in network engineering, server administration and enterprise software deployment.</p>
+      <p class="mt-4 muted">I’ve led IT operations in healthcare and development-sector organizations, trained non-technical staff such as doctors and nurses, and worked with local and international vendors to keep systems running reliably. I’m MikroTik certified at three levels: MTCNA, MTCRE and MTCSE.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="border-t" style="border-color:var(--line)">
+  <div class="mx-auto max-w-5xl px-5 py-14">
+    <h2 class="text-2xl font-semibold mb-8">Skills</h2>
+    <div class="grid sm:grid-cols-2 gap-5">
+      <div class="card p-5"><h3 class="font-semibold text-lg">Networking</h3>
+        <p class="muted mt-2">MikroTik routing and security, Cisco switching and routing (CCNA-level), OLT, bandwidth management, firewall rules, switch and router configuration.</p></div>
+      <div class="card p-5"><h3 class="font-semibold text-lg">Systems</h3>
+        <p class="muted mt-2">Windows Server, Linux, Exchange email server, IP PABX, file and web servers.</p></div>
+      <div class="card p-5"><h3 class="font-semibold text-lg">Enterprise software</h3>
+        <p class="muted mt-2">ERP, HRMS, hospital management systems, attendance and payroll, electronic record management.</p></div>
+      <div class="card p-5"><h3 class="font-semibold text-lg">Security and monitoring</h3>
+        <p class="muted mt-2">Enterprise anti-virus deployment, network auditing, CCTV surveillance systems.</p></div>
+      <div class="card p-5 sm:col-span-2"><h3 class="font-semibold text-lg">Management</h3>
+        <p class="muted mt-2">IT team leadership, annual IT budget input, hardware lifecycle planning, vendor management and technical training.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="border-t" style="border-color:var(--line)">
+  <div class="mx-auto max-w-5xl px-5 py-14">
+    <h2 class="text-2xl font-semibold mb-8">Experience</h2>
+    <div class="tl ml-2 pl-6 space-y-10">
+      <div>
+        <h3 class="text-xl font-semibold">IT Officer, Gram Unnayan Karma (GUK)</h3>
+        <p class="muted text-sm">February 2023 – present · Bogura</p>
+        <ul class="mt-3 space-y-2 list-disc pl-5 max-w-prose">
+          <li>Configure, maintain and troubleshoot workstations and servers on Windows and Linux.</li>
+          <li>Install and maintain switches, routers, firewalls and OLTs to keep connectivity stable.</li>
+          <li>Set up and manage IP PABX, email, file and web servers, plus ERP, HRMS and hospital management software.</li>
+          <li>Developed training material and onboarded staff, doctors and nurses on new internal systems.</li>
+          <li>Work with domestic and international vendors to maximize uptime, and contribute to the annual IT budget.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">IT Manager, TMSS Health Sector</h3>
+        <p class="muted text-sm">June 2020 – February 2023 · Bogura</p>
+        <ul class="mt-3 space-y-2 list-disc pl-5 max-w-prose">
+          <li>Designed and maintained the secure enterprise network and upgraded hardware, including IP and PBX communication servers.</li>
+          <li>Managed the attendance and payroll system and the hospital automation software.</li>
+          <li>Ran system-wide upgrades for software compatibility and deployed centralized anti-virus protection.</li>
+          <li>Designed, built and maintained the health sector’s official website.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">IT Technician, TMSS Health Sector</h3>
+        <p class="muted text-sm">September 2017 – June 2020 · Bogura</p>
+        <ul class="mt-3 space-y-2 list-disc pl-5 max-w-prose">
+          <li>Provided front-line IT support, network troubleshooting and hardware maintenance.</li>
+          <li>Installed and monitored large-scale CCTV systems across facilities.</li>
+          <li>Assisted with web design and basic network engineering.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold">Computer Teacher, Golden Touch Education Center</h3>
+        <p class="muted text-sm">January 2017 – August 2017 · Bogura</p>
+        <p class="mt-3 max-w-prose">Taught computer science and hardware classes, including practical labs on hardware assembly and networking.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Credentials -->
+<section id="credentials" class="border-t" style="border-color:var(--line)">
+  <div class="mx-auto max-w-5xl px-5 py-14 grid md:grid-cols-2 gap-10">
+    <div>
+      <h2 class="text-2xl font-semibold mb-5">Certifications</h2>
+      <ul class="space-y-3">
+        <li class="card p-4"><strong>MTCSE</strong> · MikroTik Certified Security Engineer<br><span class="muted text-sm">AT Computer Solution Ltd, 2024</span></li>
+        <li class="card p-4"><strong>MTCRE</strong> · MikroTik Certified Routing Engineer<br><span class="muted text-sm">AT Computer Solution Ltd, 2024</span></li>
+        <li class="card p-4"><strong>MTCNA</strong> · MikroTik Certified Network Associate<br><span class="muted text-sm">AT Computer Solution Ltd, 2024</span></li>
+      </ul>
+      <h2 class="text-2xl font-semibold mt-10 mb-5">Education</h2>
+      <ul class="space-y-3">
+        <li><strong>Diploma in Computer Engineering</strong><br><span class="muted text-sm">Institute of Information Technology, Bogura · CGPA 3.24 / 4.00 · 2014</span></li>
+        <li><strong>SSC, Computer Science (Vocational)</strong><br><span class="muted text-sm">Nandigram Vocational School · CGPA 4.27 / 5.00 · 2010</span></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="text-2xl font-semibold mb-5">Training</h2>
+      <ul class="space-y-3">
+        <li>CCNA Routing and Switching <span class="muted text-sm block">eShikhon, 2021</span></li>
+        <li>MikroTik and OLT Architecture <span class="muted text-sm block">CSL Training, Dhaka, 2021</span></li>
+        <li>Advanced MikroTik Administration <span class="muted text-sm block">BITM, Dhaka, 2020</span></li>
+        <li>Web Design and Graphic Design <span class="muted text-sm block">TMSS-ICT, Bogura, 2017</span></li>
+        <li>Computer Networking Fundamentals <span class="muted text-sm block">Journey Computer Learning Center, 2015</span></li>
+      </ul>
+      <h2 class="text-2xl font-semibold mt-10 mb-3">Languages</h2>
+      <p>Bengali (native) · English (professional working proficiency)</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="border-t" style="border-color:var(--line)">
+  <div class="mx-auto max-w-5xl px-5 py-16">
+    <div class="card p-8 sm:p-10">
+      <h2 class="text-3xl font-semibold">Need a network that stays up?</h2>
+      <p class="muted mt-3 max-w-prose">I’m open to network, infrastructure and IT management roles. Send me a message and I’ll reply as soon as I can.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a class="btn btn-primary" href="mailto:sifuddin03@gmail.com">sifuddin03@gmail.com</a>
+        <a class="btn btn-ghost" href="tel:+8801738060801">+880 1738-060801</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="border-t" style="border-color:var(--line)">
+  <div class="mx-auto max-w-5xl px-5 py-6 muted text-sm flex flex-wrap justify-between gap-2">
+    <span>© 2026 Md. Sifuddin Polash</span><span>Bogura, Bangladesh</span>
+  </div>
+</footer>
+</body>
+</html>
